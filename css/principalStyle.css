@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Revolver";
+    src: url(../fontExterna/RevolverBlackletter-Regular.otf);
+}
+
+body {
+    background-image: url(../imagens/TVD.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#centro {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+div{
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    color: white;
+    height: 30px;
+    background-color: #BD0015;
+    border-radius: 15px;
+    border-color: black;
+    width: 460px !important;
+}
+
+#questaoSeis {
+    width: 200px;
+    text-align: left;
+}
+
+
+input[type=radio] {
+    border: 0px !important;
+    width: 20px !important;
+    height: 15px !important;
+    vertical-align: middle !important;
+}
+
+input::placeholder {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Revolver", sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+p, .formPersona {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+#btns {
+    background-color: #BD0015 !important;
+    border-color: black;
+    color: black;
+}
